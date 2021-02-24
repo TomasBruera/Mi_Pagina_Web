@@ -1,0 +1,438 @@
+
+* {
+    margin: 0px;
+    padding:0px;
+}
+
+/* fondo body */ 
+body {
+    background:linear-gradient(rgb(77, 147, 240) , rgb(77, 230, 171));
+}
+/* fondo body */
+
+/*agrandar body*/
+.tamañoBody {
+    height: 1000px;
+}
+/* agrandar body*/
+
+.espacio {
+    margin: 10px;
+    padding: 5px;
+}
+
+/*.tituloyPagina {
+    color: rgb(13, 17, 17);
+    font-weight: bold;
+}*/
+
+tr td {
+    color: rgb(9, 24, 9);
+}
+
+/*
+.prueba {
+    transform:scale(2 , 2) ;
+} 
+*/
+
+
+.Raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+textarea {
+    overflow: auto;
+}
+
+.distanciaArriba {
+    margin-top: 25px;
+    margin-left: 15px;
+}
+
+.Footer {
+    position :relative;
+    width: 100%;
+
+    background-color: rgb(167, 140, 140);
+}
+
+.menu li {
+    display: inline-block;
+    margin: 7px;
+    position: relative;
+    font-weight: bold;
+    border-color: black;
+    background-color: rgb(10, 168, 63);
+}
+
+.menu li:hover {
+    background-color: blanchedalmond;
+    border-radius: 5px;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+}
+
+.submenu li {
+    background-color: rgb(214, 201, 22);
+}
+
+
+.menu li a:hover {
+    color: rgb(20, 21, 29);
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.iconoFB {
+    font-size: 40px;
+    color:  #3b5998;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    background-color: white;
+}
+
+.aumentarTamaño {
+    text-align: center;
+    color: black;
+}
+.aumentarTamaño:hover {
+    font-weight: bold;
+    color: rgb(38, 26, 206);
+}
+
+.divRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+}
+.iconoWS {
+        font-size: 40px;
+        color: #25d366;
+        text-align: center;
+        margin: 2px;
+        padding: 2px;
+        background-color: white;
+    }
+
+    .iconoIG {
+    font-size: 40px;
+    color: #e1306c;
+    text-align: center;
+    margin: 2px;
+    padding: 2px;
+    background-color: white;
+    }
+
+
+.centrarTexto {
+    text-align: center;
+}
+
+body {
+    padding: 9px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 75px;
+    padding: 10px;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flexTabla {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:flex-start;
+    height: 250px;
+}
+
+.cajaOS {
+    width: 105px;
+    height: 105px;
+    border-style:dotted ;
+    border-radius: 3px;
+    border-color: rgb(98, 100, 100);
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.articleAcomodado{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 90%;
+
+}
+.separadorNav  {
+    margin: 20px;
+    padding: 15px;
+}
+
+.acomodarContacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.tituloContac {
+    padding: 10px;
+}
+
+.sobreNosFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cajaArticle {
+    width: 150px;
+    height: 150px;
+    border-style: dotted;
+    justify-content: center;
+    padding: 2px;
+    margin: 35px;
+    text-align: center;
+    font-family:'Titillium Web', sans-serif;
+}
+
+/*aplicando el transform en los div */
+
+.cajaArticle :hover {
+    transform: scale( 2 , 2);
+    background-color: rgb(30, 53, 53);
+    color: rgb(57, 179, 235);
+    font-weight: bold;
+    overflow: hidden;
+}
+
+
+/*para hacer flexible el html de contacto */
+.flexContacto{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-around;
+}
+
+
+
+.acomodarImagenes {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.imagen1 {
+    margin: 10px;
+}
+
+.imagen2 {
+    margin: 10px;
+}
+
+.imagen3 {
+    margin: 10px;
+}
+/*Grid Trabajos
+
+.contenedorSection {
+    display: grid;
+    width: 100%;
+    height: 700px;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: 100px 200px 1fr;
+    grid-template-areas: 
+    "titulo titulo titulo"
+    "contenido contenido contenido"
+    "imagen1 imagen2 imagen3";
+    gap: 10px 10px ;
+    justify-items: center;
+    }
+    
+
+.tituloGrid {
+        grid-area: titulo;
+        padding: 10px;
+    }
+
+.contenidoGrid {
+    grid-area: contenido;
+    padding: 10px;
+}
+
+
+}
+
+.imagenCamb:hover {
+    transform: rotateY(360deg);
+    border-radius: 5px;
+}
+
+.imagen2 {
+    grid-area: imagen2;
+}
+
+.imagen3{
+    grid-area: imagen3;
+}
+
+/* grid trabajos */
+
+
+/* Grid Especialidades*
+
+.contenedorEsp {
+    display: grid;
+    width: 100%;
+    height: 800px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 200px 1fr;
+    grid-template-areas: 
+    "Esp Esp Esp "
+    "Texto Texto Texto"
+    "Bracket1 Bracket2 Bracket3";
+    gap: 10px 10px;
+    justify-items: center;
+}
+
+.tituloEsp{
+    grid-area: Esp;
+    padding: 10px;
+
+}
+
+.contenidoEsp {
+    grid-area: Texto;
+    padding: 10px;
+
+}
+
+.Bracket1 {
+    grid-area: Bracket1;
+    margin-left: 10px;
+}
+
+.Bracket2 {
+    grid-area: Bracket2;
+}
+
+.Bracket3 {
+    grid-area: Bracket3;
+}
+
+/* Grid Especialidades fin*/
+
+.margin10{
+    margin-bottom: 20px;
+}
+
+.tamañoCar {
+    object-fit: cover;
+}
+
+.espacioCar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    box-sizing: border-box;
+}
+
+.acomodarRedes {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+}
+
+h2 {
+    text-align: center;
+}
+
+@media screen and (max-width:700px)
+  {
+    .articleAcomodado {
+        flex-wrap: wrap;
+    }
+
+    .imgTrabajos {
+        width: 250px;
+        height: auto;
+    }
+
+  }
+
+.imgTrabajos {
+    align-items: center;
+}
+
+.imgConsul {
+    display: flex;
+    justify-content: center;
+}
+
+.tamañoImg {
+    width: auto;
+    height:auto;
+}
+
+@media screen and (max-width:510px)
+
+{
+    .tamañoImg {
+
+        width: 75%;
+        height: 75%;
+    }
+}
+
+.tamañoImg--Trabajos {
+    width: auto;
+    height:auto;
+}
+
+@media screen and (max-width:510px)
+
+{
+    .tamañoImg--Trabajos {
+
+        width: 75%;
+        height: 95%;
+    }
+}
+
+.indexNav {
+    z-index: 1;
+}
+

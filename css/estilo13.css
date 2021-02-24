@@ -1,0 +1,70 @@
+.espacio {
+  margin: 10px;
+  padding: 5px; }
+
+.sector1__alineadoYSubrayado {
+  text-align: center;
+  text-decoration: underline; }
+
+.sector1__alineadoYSubrayado__sub {
+  text-align: center;
+  font-size: 110%; }
+
+.titulo {
+  color: color #0d1111;
+  font-weight: bold;
+  text-align: center; }
+
+.sector2__infoLocal {
+  text-align: center; }
+
+.sector2__infoLocal__sub {
+  font-size: 110%; }
+
+.Footer__titFooter {
+  color: color #0d1111;
+  font-weight: bold; }
+
+.contenedorTr__titulo {
+  color: color #0d1111;
+  font-weight: bold;
+  text-align: center; }
+
+.contenedorTr__titulo--sub {
+  color: color #0d1111;
+  font-weight: bold;
+  text-align: center; }
+
+.Car-Img {
+  height: 350px; }
+
+.padImagenes .miDiv-1 {
+  padding: 5px; }
+
+.padImagenes .miDiv-2 {
+  padding: 5px; }
+
+.padImagenes .miDiv-3 {
+  padding: 5px; }
+
+.padEjemplo {
+  padding: 2.5px; }
+
+.imgSocial {
+  height: 260px;
+  width: 320px; }
+
+
+.bordeSocial, .bordeSocial--Otros, .bordeSocial--Mapa {
+  border-radius: 5px; }
+
+.bordeSocial--Mapa {
+  height: 172px;
+  width: 350px; }
+
+.bordeSocial--Diente {
+  border-radius: 25%; }
+
+@media screen and (max-width: 1000px) {
+  .bordeSocial--Diente {
+    display: none; } }

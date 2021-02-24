@@ -1,0 +1,110 @@
+
+$margen : 10px;
+
+$pad:  5px;
+
+.espacio {
+    margin: $margen;
+    padding: $pad;
+}
+
+$acomodarTexto : center;
+$decoracion: underline ;
+$tamañoletra: 150%;
+$letramedia:110%;
+$radio:6px;
+
+.sector1__alineadoYSubrayado {
+    text-align: $acomodarTexto;
+    text-decoration: $decoracion;
+}
+
+.sector1__alineadoYSubrayado__sub {
+    text-align: $acomodarTexto;
+    font-size: $letramedia;
+}
+$colorTitulo: color rgb(13, 17, 17);
+$negrita: bold;
+
+.titulo {
+    color: $colorTitulo;
+    font-weight: $negrita;
+    text-align: $acomodarTexto;
+}
+
+
+.sector2__infoLocal {
+    text-align: $acomodarTexto;
+}
+
+.sector2__infoLocal__sub { 
+    font-size: $letramedia;
+}
+
+.Footer__titFooter{
+    color: $colorTitulo;
+    font-weight: $negrita;
+} 
+
+.contenedorTr__titulo {
+    color: $colorTitulo;
+    font-weight: $negrita;
+    text-align: $acomodarTexto;
+}
+
+.contenedorTr__titulo--sub {
+    color: $colorTitulo;
+    font-weight: $negrita;
+    text-align: $acomodarTexto;
+}
+
+$imagenMini :600px/2 + 50;
+
+.Car-Img {
+    height: $imagenMini;
+}
+
+
+.padImagenes {
+    @for $i from 1 to 4 {
+    .miDiv-#{$i} {
+        padding: 5px;
+    }
+    }
+}
+
+.padEjemplo {
+    padding: $pad/2;
+}
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+ }
+ .imgSocial {
+    @include sizes(320px, 260px);
+ } 
+
+.bordeSocial {
+    border-radius:$radio/2+2;
+}
+
+.bordeSocial--Otros {
+    @extend .bordeSocial
+}
+
+.bordeSocial--Mapa {
+    @extend .bordeSocial;
+    height:172px;
+    width: 350px;
+}
+
+.bordeSocial--Diente {
+    border-radius: 25%;
+}
+@media screen and (max-width:1000px)
+{
+    .bordeSocial--Diente {
+    display: none;
+    }
+}
