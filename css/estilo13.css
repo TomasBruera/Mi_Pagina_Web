@@ -68,3 +68,7 @@
 @media screen and (max-width: 1000px) {
   .bordeSocial--Diente {
     display: none; } }
+
+    .pruebaGit {
+      color: cyan;
+    }
