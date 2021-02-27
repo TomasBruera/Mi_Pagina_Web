@@ -462,3 +462,7 @@ h2 {
 .agregarMargen {
     margin: 15px;
 }
+
+.estiloCard{
+    width: 18rem;
+}
