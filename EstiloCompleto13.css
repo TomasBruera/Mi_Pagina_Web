@@ -407,11 +407,21 @@ h2 {
     height:auto;
 }
 
+.mapaOd {
+    
+    margin: 15px;
+}
+
 @media screen and (max-width:510px)
 
 {
     .tamañoImg {
 
+        width: 75%;
+        height: 75%;
+    }
+    
+    .mapaOd {
         width: 75%;
         height: 75%;
     }
@@ -436,3 +446,19 @@ h2 {
     z-index: 1;
 }
 
+.grupoContacto {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+
+.agregarMargen {
+    margin: 15px;
+}

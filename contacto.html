@@ -42,42 +42,47 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="especialidades.html">Especialidades</a>
-                        <ul class="submenu">
-                            <li><a href="">Ortodoncia</a></li>
-                            <li><a href="">Implantes</a></li>
-                            <li><a href="">Protesis dental</a></li>
-                        </ul>
                     </li>
                     </ul>
                 </div>
                 </div>
             </nav>
         </div>
-        <section class="flexContacto col-lg-5" >
+        <section class="container-fluid">
             <div>
                 <h2 class="tituloContac">Para contactar con nosotros complete el formulario</h2>
             
-            <form class="acomodarContacto" action="" method="GET">
-            <div>
-                <label for="ejemplo_email">Ingrese su email:</label>
-                <input type="email" name="ejemplo_email" placeholder="nombre@hotmail.com">
-            </div>
-            <div>
-                <label for="ejemplo_nombre">Ingrese su nombre:</label>
-                <input type="text" name="ejemplo_nombre" placeholder="su nombre">
-            </div>
-            <div>
-                <label for="ejemplo_apellido">Ingrese su apellido</label>
-                <input type="text" name="ejemplo_apellido" placeholder="su apellido">
-            </div>
-            <div>
-                <label for="num_telefono">Ingrese su numero de telefono</label>
-                <input type="text" name="num_telefono" placeholder="su numero de telefono">
-            </div>
-            <div>
-                <label for="comentarios">¿Desea añadir comentarios?</label>
-                <textarea name="comentarios" id="" cols="30" rows="10"></textarea>
-            </div>
+            <form action="" method="GET">
+                <form>
+                    <form>
+                        <div class="row">
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Ingrese su nombre">
+                        </div>
+                        <div class="col">
+                            <input type="text" class="form-control" placeholder="Ingrese su apellido">
+                        </div>
+                        </div>
+                    </form>
+                    <form action="">
+                        <div class="form-group container-fluid">
+                            <div class="col">
+                                <input type="text" class="form-control agregarMargen" placeholder="Ingrese su numero de telefono">
+                            </div>
+                            <div class="col">
+                                <input type="text" class="form-control agregarMargen" placeholder="Ingrese su dirección">
+                            </div>
+                        </div>
+                    </form>
+                    <div class="form-group">
+                    <label for="exampleFormControlInput1">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su correo">
+                    </div>
+                    <div class="form-group">
+                    <label for="exampleFormControlTextarea1">Ingrese aqui su duda o consulta</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                </form>
             <div>
                 <fieldset>
                     <legend class="leyenda">Que tan grave es su urgencia?</legend>
@@ -118,8 +123,6 @@
                     </div>
                     </div>
                 </div>
-    
-                <input type="reset" value="Borrar contenido">
             </div>
             </form>
             </div>
