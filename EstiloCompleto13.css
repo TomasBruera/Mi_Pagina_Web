@@ -191,9 +191,7 @@ nav {
 
 .acomodarContacto {
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 400px;
+    align-content: center;
 }
 
 .tituloContac {
@@ -258,94 +256,7 @@ nav {
 .imagen3 {
     margin: 10px;
 }
-/*Grid Trabajos
 
-.contenedorSection {
-    display: grid;
-    width: 100%;
-    height: 700px;
-    grid-template-columns: repeat(3 , 1fr);
-    grid-template-rows: 100px 200px 1fr;
-    grid-template-areas: 
-    "titulo titulo titulo"
-    "contenido contenido contenido"
-    "imagen1 imagen2 imagen3";
-    gap: 10px 10px ;
-    justify-items: center;
-    }
-    
-
-.tituloGrid {
-        grid-area: titulo;
-        padding: 10px;
-    }
-
-.contenidoGrid {
-    grid-area: contenido;
-    padding: 10px;
-}
-
-
-}
-
-.imagenCamb:hover {
-    transform: rotateY(360deg);
-    border-radius: 5px;
-}
-
-.imagen2 {
-    grid-area: imagen2;
-}
-
-.imagen3{
-    grid-area: imagen3;
-}
-
-/* grid trabajos */
-
-
-/* Grid Especialidades*
-
-.contenedorEsp {
-    display: grid;
-    width: 100%;
-    height: 800px;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 100px 200px 1fr;
-    grid-template-areas: 
-    "Esp Esp Esp "
-    "Texto Texto Texto"
-    "Bracket1 Bracket2 Bracket3";
-    gap: 10px 10px;
-    justify-items: center;
-}
-
-.tituloEsp{
-    grid-area: Esp;
-    padding: 10px;
-
-}
-
-.contenidoEsp {
-    grid-area: Texto;
-    padding: 10px;
-
-}
-
-.Bracket1 {
-    grid-area: Bracket1;
-    margin-left: 10px;
-}
-
-.Bracket2 {
-    grid-area: Bracket2;
-}
-
-.Bracket3 {
-    grid-area: Bracket3;
-}
-
-/* Grid Especialidades fin*/
 
 .margin10{
     margin-bottom: 20px;
@@ -464,4 +375,27 @@ h2 {
 
 .estiloCard{
     width: 18rem;
+}
+
+.menosTamaño {
+    width: 60%;
+}
+
+.ubicarT{
+    text-align: start;
+}
+
+@media screen and (max-width:1000px)
+{
+    .menosTamaño {
+        width: 100%;
+    }
+    
+    .ubicarT {
+        text-align: center;
+    }
+}
+
+.colorNav {
+    background-color: #238af1;
 }

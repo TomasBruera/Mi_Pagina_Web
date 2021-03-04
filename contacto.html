@@ -20,7 +20,7 @@
             <h1>Odontologia Maizon</h1>
         </header>
         <div>
-            <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #238af1;">
+            <nav class="navbar navbar-expand-lg navbar-light colorNav ">
                 <img class="bordeSocial--Diente" src="Trabajos/diente.png" alt="diente-logotipo">
                 <div class="container-fluid">
                 <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -50,80 +50,90 @@
         </div>
         <section class="container-fluid">
             <div>
-                <h2 class="tituloContac">Para contactar con nosotros complete el formulario</h2>
+                <h2 class="tituloContac ubicarT">Para contactar con nosotros complete el formulario</h2>
             
             <form action="" method="GET">
                 <form >
-                    <form>
-                        <div class="row">
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Ingrese su nombre">
-                        </div>
-                        <div class="col">
-                            <input type="text" class="form-control" placeholder="Ingrese su apellido">
-                        </div>
-                        </div>
-                    </form>
-                    <form action="">
-                        <div class="form-group container-fluid">
+                    <div class="menosTamaño">
+                        <form >
+                            <div class="row">
                             <div class="col">
-                                <input type="text" class="form-control agregarMargen" placeholder="Ingrese su numero de telefono">
+                                <input type="text" class="form-control" placeholder="Ingrese su nombre">
                             </div>
                             <div class="col">
-                                <input type="text" class="form-control agregarMargen" placeholder="Ingrese su dirección">
+                                <input type="text" class="form-control" placeholder="Ingrese su apellido">
                             </div>
-                        </div>
+                            </div>
+                    </div>
                     </form>
-                    <div class="form-group">
-                    <label for="exampleFormControlInput1">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su correo">
+                    <div class="menosTamaño">
+                        <form action="">
+                            <div class="form-group container-fluid">
+                                <div class="col">
+                                    <input type="text" class="form-control agregarMargen" placeholder="Ingrese su numero de telefono">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control agregarMargen" placeholder="Ingrese su dirección">
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Ingrese aqui su duda o consulta</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    <div class="menosTamaño">
+                        <div class="form-group">
+                            <label for="exampleFormControlInput1">Email</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Ingrese su correo">
+                            </div>
+                            <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Ingrese aqui su duda o consulta</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                            </div>
                     </div>
+
                 </form>
-            <div>
-                <fieldset>
-                    <legend class="leyenda">Que tan grave es su urgencia?</legend>
-                    <input type="radio" name="gravedad" value="Leve"> Leve
-                    <input type="radio" name="gravedad" value="Urgente"> Urgente
-                    <input type="radio" name="gravedad" value="Muy urgente"> Muy urgente
-                </fieldset>
-            </div>
-            <div>
-                <label for="Tratamientos">¿Se ha tratado anteriormente en este consultorio?</label>
-                <select name="Tratamientos" >
-                    <option value="Si">He rebido tratamiento anteriormente</option>
-                    <option value="No">No he rebido tratamiento anteriormente</option>
-                </select>
-            </div>
-            <div>
-                <label for="ChBox">¿Desea recibir notificiaciones de ofertas y descuentos por correo?</label>
-                <input type="checkbox" name="ChBox" >
-            </div>
-            <div class="margin10">
-                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Enviar contenido
-                </button>
-                
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                    <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Enviar contenido</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                        </div>
-                        <div class="modal-body">
-                        <p>Se ha enviando correctamente el contenido</p>
-                        </div>
-                        <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                        </div>
+                <div class="menosTamaño"> 
+                    <div>
+                        <fieldset>
+                            <legend class="leyenda">Que tan grave es su urgencia?</legend>
+                            <input type="radio" name="gravedad" value="Leve"> Leve
+                            <input type="radio" name="gravedad" value="Urgente"> Urgente
+                            <input type="radio" name="gravedad" value="Muy urgente"> Muy urgente
+                        </fieldset>
                     </div>
+                    <div>
+                        <label for="Tratamientos">¿Se ha tratado anteriormente en este consultorio?</label>
+                        <select name="Tratamientos" >
+                            <option value="Si">He rebido tratamiento anteriormente</option>
+                            <option value="No">No he rebido tratamiento anteriormente</option>
+                        </select>
+                    </div>
+                    <div>
+                        <label for="ChBox">¿Desea recibir notificiaciones de ofertas y descuentos por correo?</label>
+                        <input type="checkbox" name="ChBox" >
+                    </div>
+                    <div class="margin10">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                            Enviar contenido
+                        </button>
+                        
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Enviar contenido</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                <p>Se ha enviando correctamente el contenido</p>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-            </div>
+
             </form>
             </div>
         </section>
