@@ -220,8 +220,8 @@ nav {
 
 .cajaArticle :hover {
     transform: scale( 2 , 2);
-    background-color: rgb(30, 53, 53);
-    color: rgb(57, 179, 235);
+    background-color: rgb(79, 194, 194);
+    color: rgb(27, 38, 43);
     font-weight: bold;
     overflow: hidden;
 }
