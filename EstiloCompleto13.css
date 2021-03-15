@@ -6,7 +6,7 @@
 
 /* fondo body */ 
 body {
-    background:linear-gradient(rgb(77, 147, 240) , rgb(77, 230, 171));
+background:linear-gradient(to top, #e2c7e2 0%, #74c9d3 100%);
 }
 /* fondo body */
 
