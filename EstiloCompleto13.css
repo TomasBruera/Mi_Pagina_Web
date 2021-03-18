@@ -435,3 +435,7 @@ h2 {
         position: relative;
     }
 }
+
+.tituloPrincipal {
+    font-family: 'Times New Roman', Times, serif;
+}
